@@ -1,0 +1,41 @@
+// listing
+id :int
+realtor: int (forenign key [realtor])
+title: string
+adrees: string
+city :string
+stat:string
+zipcode:string
+description:text
+price: int
+bedrooms:int
+bedroom:int
+garage :int
+sqft:int
+is_published:boolen [true]
+lot_size: float
+list_date:date
+photo_main:string
+photo_1,2,3,4,5,6:string
+
+
+// realtor
+id:int
+name:string
+photo:string
+description:text
+email:string
+phone:string
+is_mvg:boolen[0]
+hire_date:date
+
+//contact
+id:int
+user_id:int
+listing:int
+listing_id :int
+name :string
+email:string
+phone:string
+message:text
+contact_date:date
